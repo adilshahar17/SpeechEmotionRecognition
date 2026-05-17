@@ -9,7 +9,7 @@ This project implements Speech Emotion Recognition (SER) using the RAVDESS datas
 
 # Workflow
 - Data Download
-    Dataset is fetched using kagglehub.
+    - Dataset is fetched using kagglehub.
 - Feature Extraction
     - Audio files processed with librosa.
     - Extracted MFCC features (40 coefficients) averaged across time.
