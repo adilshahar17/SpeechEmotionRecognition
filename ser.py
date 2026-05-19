@@ -6,7 +6,7 @@ from tensorflow.keras.models import load_model
 from sklearn.preprocessing import LabelEncoder
 import os
 
-model = load_model("emotion_model.h5")
+model = load_model("emotion_model.keras")
 encoder = LabelEncoder()
 encoder.classes_ = np.load("classes.npy", allow_pickle=True)
 
